@@ -5,7 +5,7 @@ const nsfw = new NSFW();
 
 
 
-const bot = new Telegraf('1267994416:AAHGS-jQdpMH1dqKkhAL7uQKnv1DOiJuODM')
+const bot = new Telegraf(your.token.Bot)
 
 bot.start((ctx) => {
     ctx.reply('Wenas pa');
